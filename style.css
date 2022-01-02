@@ -17,9 +17,6 @@ a:hover {
     text-decoration: none;
     cursor: pointer;
 }
-.navbar-header img {
-width: 40%;
-}
 
 #page-loading-blocs-notifaction {
     position: fixed;
