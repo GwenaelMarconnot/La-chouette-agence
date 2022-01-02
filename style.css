@@ -38,7 +38,6 @@ a:hover {
     background-size: cover;
     position: relative;
 }
-
 .bloc .container {
     padding-left: 0;
     padding-right: 0;
@@ -364,11 +363,7 @@ a:hover {
 
 @media (min-width: 768px) {
     .site-navigation {
-        position: absolute;
-        top: 50%;
         right: 20px;
-        transform: translate(0, -50%);
-        -webkit-transform: translateY(-50%);
     }
     .nav > li .dropdown-menu a,
     .nav > li .dropdown-menu a:hover {
@@ -655,7 +650,7 @@ a {
 }
 
 .container {
-    max-width: 1000px;
+    width: 1000px;
 }
 
 .hero-bloc-text {
@@ -672,7 +667,7 @@ a {
     font-size: 20px;
     text-align: center;
     font-weight: lighter;
-    max-width: 520px;
+    width: 520px;
     margin: auto auto auto auto;
 }
 
@@ -681,7 +676,7 @@ p {
 }
 
 .tight-width-whitespace {
-    max-width: 600px;
+    width: 600px;
     margin: auto auto auto auto;
 }
 
