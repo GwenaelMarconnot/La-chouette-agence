@@ -1,13 +1,13 @@
 # BEGIN Cache-Control Headers
 <IfModule mod_headers.c>
- <FilesMatch "\.(ico|jpe?g|png|gif|swf|css|gz)$">
- Header set Cache-Control "max-age=2592000, public"
+ <FilesMatch "\.(ico|jpe?g|png|gif|swf|webp|css|gz)$">
+ Header set Cache-Control "max-age=25920000, public"
  </FilesMatch>
  <FilesMatch "\.(js)$">
- Header set Cache-Control "max-age=2592000, private"
+ Header set Cache-Control "max-age=25920000, private"
  </FilesMatch>
 <filesMatch "\.(html|htm)$">
-Header set Cache-Control "max-age=7200, public"
+Header set Cache-Control "max-age=15000, public"
 </filesMatch>
 # Disable caching for scripts and other dynamic files
 <FilesMatch "\.(pl|php|cgi|spl|scgi|fcgi)$">
